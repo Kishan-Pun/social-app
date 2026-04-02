@@ -31,7 +31,7 @@ export default function Feed() {
     if (!user) navigate("/");
 
     fetchPosts();
-  }, []);
+  }, [navigate]);
 
 //   const user = JSON.parse(localStorage.getItem("user"));
 
